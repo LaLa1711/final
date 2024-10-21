@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE4E8"
+    android:padding="8dp">
+
+    <ImageButton
+        android:id="@+id/ganttChartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/ic_gantt"
+        android:contentDescription="Gantt Chart"
+        android:scaleType="centerInside"
+        android:padding="12dp"/>
+
+    <ImageButton
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/ic_settings"
+        android:contentDescription="Settings" />
+
+    <ImageButton
+        android:id="@+id/searchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/ic_search"
+        android:contentDescription="Search" />
+
+    <ImageButton
+        android:id="@+id/addTaskButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/ic_add"
+        android:contentDescription="Add Task" />
+</LinearLayout>
